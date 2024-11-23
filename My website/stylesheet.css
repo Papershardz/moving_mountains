@@ -1,0 +1,55 @@
+img {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-right: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0%;
+  padding-right: 0%;
+  position: relative;
+  justify-self: center;
+}
+
+h2 {
+  font-size: medium;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  margin-top: 0%;
+}
+
+a {
+  color: lightskyblue;
+}
+
+.years {
+  margin-bottom: 0%;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.links {
+  position: relative;
+  -ms-flex-direction: column;
+}
+
+.Photobox {
+  display: flex;
+  position: relative;
+  float: right;
+  border-color: black;
+  border-style: dotted;
+}
+
+.blog {
+}
