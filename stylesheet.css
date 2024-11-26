@@ -1,48 +1,53 @@
-img {
-  height: 40px;
-  width: 40px;
-  float: left;
-  margin-right: 40px;
+/* 1. Base/Reset Styles */
+:root {
+  font-size: 16px;
 }
 
+* {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* 2. Typography */
 h1 {
-  text-align: center;
-  margin-top: 0%;
-  padding-right: 0%;
-  position: relative;
-  justify-self: center;
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
 }
 
 h2 {
-  font-size: medium;
+  font-size: 0.97rem;
+  margin-top: 0;
+  color: #4a4a4a;
 }
 
-nav {
+/* 3. Layout Components */
+.sidebar {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20%;
+  margin-top: 5%;
+  align-items: flex-start;
+  max-width: 20%;
 }
 
-p {
-  margin-top: 0%;
+/* 4. Navigation & Links */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.links a {
+  font-size: 0.93rem;
 }
 
 a {
   color: lightskyblue;
 }
 
-.years {
-  margin-bottom: 0%;
-}
-
-* {
-  font-family: "Open Sans", sans-serif;
-}
-
-.links {
-  position: relative;
-  -ms-flex-direction: column;
-}
-
+/* 5. Components */
 .Photobox {
   display: flex;
   position: relative;
@@ -51,5 +56,14 @@ a {
   border-style: dotted;
 }
 
-.blog {
+/* 6. Media/Images */
+img {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+}
+
+/* 7. Utility Classes */
+.years {
+  margin-bottom: 0;
 }
