@@ -41,10 +41,19 @@ h2 {
 
 .links a {
   font-size: 0.93rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a {
   color: lightskyblue;
+  cursor: pointer;
+}
+
+/* Optional: add hover effect */
+.links a:hover {
+  color: #0088cc;
 }
 
 /* 5. Components */
